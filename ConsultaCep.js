@@ -22,6 +22,7 @@ function preencherCampos(dados) {
 }
 
 function limparCampos() {
+  document.getElementById('cep').value = '';
   document.getElementById('logradouro').value = '';
   document.getElementById('bairro').value = '';
   document.getElementById('cidade').value = '';
