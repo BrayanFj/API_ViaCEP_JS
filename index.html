@@ -11,9 +11,9 @@
     <h1>Consulta de Endereço</h1>
     <form id="form-cep">
         <label for="cep">CEP:</label>
-        <input type="text" id="cep" name="cep" placeholder="Insira seu CEP" />
+        <input type="text" id="cep" name="cep" placeholder="Insira seu CEP" required/>
         <br>
-        <br>
+        <br>        
         <button class="botaoConsulta" type="button" onclick="consultarCEP()">Consultar</button>
         <button class="botaoLimpar" type="button" onclick="limparCampos()">Limpar</button>
         <br/>
@@ -29,6 +29,8 @@
         <br/>
         <label for="estado">Estado:</label>
         <input type="text" id="estado" name="estado" readonly />
+
     </form>
+
 </body>
 </html>

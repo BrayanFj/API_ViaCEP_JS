@@ -11,14 +11,7 @@ function consultarCEP() {
                   preencherCampos(data);
               }
           })
-          .catch(error => {
-              console.error('Erro:', error);
-              alert('Erro ao consultar o CEP');
-          });
-  } else {
-      alert('CEP inválido');
-      limparCampos();
-  }
+        }
 }
 
 function preencherCampos(dados) {
