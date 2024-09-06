@@ -2,6 +2,12 @@ body {
   background-color: rgb(112, 31, 31);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+    text-align: center;
+    display: flex; /* Usando Flexbox para layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    margin: 0; /* Remove margens padrão */
 }
 
 .botaoConsulta {
@@ -46,15 +52,16 @@ input[type="text"] {
 
 form {
     color: white;
-  background-color: #a33d3d;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 500px;
+    background-color: #a33d3d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
 }
 
 
 h1{
      color: white;
+     
 }
